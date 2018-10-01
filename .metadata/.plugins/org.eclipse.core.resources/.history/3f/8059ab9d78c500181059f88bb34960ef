@@ -1,0 +1,183 @@
+package helloWorld;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldController {
+	@RequestMapping("/")
+	public String index() {
+		return "According to all known laws\r\n" + 
+				"of aviation,\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"there is no way a bee\r\n" + 
+				"should be able to fly.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Its wings are too small to get\r\n" + 
+				"its fat little body off the ground.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"The bee, of course, flies anyway\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"because bees don't care\r\n" + 
+				"what humans think is impossible.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Yellow, black. Yellow, black.\r\n" + 
+				"Yellow, black. Yellow, black.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Ooh, black and yellow!\r\n" + 
+				"Let's shake it up a little.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Barry! Breakfast is ready!\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Ooming!\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Hang on a second.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Hello?\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- Barry?\r\n" + 
+				"- Adam?\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- Oan you believe this is happening?\r\n" + 
+				"- I can't. I'll pick you up.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Looking sharp.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Use the stairs. Your father\r\n" + 
+				"paid good money for those.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Sorry. I'm excited.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Here's the graduate.\r\n" + 
+				"We're very proud of you, son.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"A perfect report card, all B's.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Very proud.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Ma! I got a thing going here.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- You got lint on your fuzz.\r\n" + 
+				"- Ow! That's me!\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- Wave to us! We'll be in row 118,000.\r\n" + 
+				"- Bye!\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Barry, I told you,\r\n" + 
+				"stop flying in the house!\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- Hey, Adam.\r\n" + 
+				"- Hey, Barry.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- Is that fuzz gel?\r\n" + 
+				"- A little. Special day, graduation.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Never thought I'd make it.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Three days grade school,\r\n" + 
+				"three days high school.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Those were awkward.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Three days college. I'm glad I took\r\n" + 
+				"a day and hitchhiked around the hive.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"You did come back different.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- Hi, Barry.\r\n" + 
+				"- Artie, growing a mustache? Looks good.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- Hear about Frankie?\r\n" + 
+				"- Yeah.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- You going to the funeral?\r\n" + 
+				"- No, I'm not going.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Everybody knows,\r\n" + 
+				"sting someone, you die.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Don't waste it on a squirrel.\r\n" + 
+				"Such a hothead.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"I guess he could have\r\n" + 
+				"just gotten out of the way.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"I love this incorporating\r\n" + 
+				"an amusement park into our day.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"That's why we don't need vacations.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Boy, quite a bit of pomp...\r\n" + 
+				"under the circumstances.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- Well, Adam, today we are men.\r\n" + 
+				"- We are!\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"- Bee-men.\r\n" + 
+				"- Amen!\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Hallelujah!\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Students, faculty, distinguished bees,\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"please welcome Dean Buzzwell.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"Welcome, New Hive Oity\r\n" + 
+				"graduating class of...\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"...9:15.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"That concludes our ceremonies.\r\n" + 
+				"\r\n" + 
+				"  \r\n" + 
+				"And begins your career\r\n" + 
+				"at Honex Industries!\r\n" + 
+				"";
+	}
+}
